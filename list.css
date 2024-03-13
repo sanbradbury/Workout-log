@@ -1,0 +1,266 @@
+.muscle-groups {
+    position: relative;
+    background: #eee;
+    width: 320px;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .5);
+    overflow: hidden;
+    border-top: .75rem solid #FB63A3;
+  }
+  
+  .muscle-groups h1 {
+    margin: -.5rem -1rem 1rem;
+    padding: 0 1rem .75rem;
+    background: #FB63A3;
+    color: #eee;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  .muscle-groups h2 {
+    margin: 0 0 .5rem;
+    font-size: .8rem;
+    letter-spacing: -.03em;
+    text-transform: uppercase;
+  }
+  
+  .muscle-groups label + h2 {
+    margin-top: 1rem;
+  }
+  
+  .muscle-groups label {
+    width: 50px;
+    display: block;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    font-size: .7rem;
+    opacity: .5;
+    position: relative;
+    z-index: 200;
+    border-left: 5px solid transparent;
+    padding-left: 6px;
+    margin-left: -11px;
+  }
+  
+  .muscle-groups label:hover,
+  .muscle-groups label.hover {
+    opacity: 1;
+    border-color: rgba(51, 51, 51, .75);
+  }
+
+  .muscle-groups a {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+  }
+  
+  .muscle-groups input:checked + label {
+    opacity: 1;
+    font-weight: bold;
+    color: #FB63A3;
+  }
+  
+  .muscle-groups svg {
+    position: absolute;
+    right: -1.5rem;
+    bottom: 3rem;
+    height: 350px;
+    z-index: 100;
+  }
+  
+  .muscle-groups svg g[id] path {
+    opacity: .2;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  .muscle-groups svg g g[id]:hover path {
+    cursor: pointer;
+    opacity: .5;
+    fill: #00BCD4 !important;
+  }
+  
+  .muscle-groups .muscles-helper {
+    display: none;
+  }
+  
+  .muscle-groups [for="obliques"]:hover ~ svg #Obliques path {
+    opacity: .75;
+  }
+  
+  .muscle-groups .obliques:checked ~ svg #Obliques path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="abs"]:hover ~ svg #Abs path {
+    opacity: .75;
+  }
+  
+  .muscle-groups .abs:checked ~ svg #Abs path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="pectorals"]:hover ~ svg #Pectorals path {
+    opacity: .75;
+  }
+  
+  .muscle-groups .pectorals:checked ~ svg #Pectorals path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="biceps"]:hover ~ svg #Biceps path {
+    opacity: .75;
+  }
+  
+  .muscle-groups .biceps:checked ~ svg #Biceps path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+  
+  .muscle-groups [for="deltoids"]:hover ~ svg #Deltoids path {
+    opacity: .75;
+  }
+  
+  .muscle-groups .deltoids:checked ~ svg #Deltoids path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="forearms"]:hover ~ svg #Forearms path {
+    opacity: .75;
+  }
+  
+  .muscle-groups .triceps:checked ~ svg #Triceps path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="triceps"]:hover ~ svg #Triceps path {
+    opacity: .75;
+  }
+
+  .muscle-groups .trapezius:checked ~ svg #Trapezius path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="trapezius"]:hover ~ svg #Trapezius path {
+    opacity: .75;
+  } 
+
+  .muscle-groups .lats:checked ~ svg #Lats path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="lats"]:hover ~ svg #Lats path {
+    opacity: .75;
+  } 
+
+  .muscle-groups .abductors:checked ~ svg #Abductors path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="abductors"]:hover ~ svg #Abductors path {
+    opacity: .75;
+  } 
+
+  .muscle-groups .calves:checked ~ svg #Calves path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="calves"]:hover ~ svg #Calves path {
+    opacity: .75;
+  } 
+
+  .muscle-groups .hamstrings:checked ~ svg #Hamstrings path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="hamstrings"]:hover ~ svg #Hamstrings path {
+    opacity: .75;
+  } 
+
+  .muscle-groups .glutes:checked ~ svg #Glutes path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="glutes"]:hover ~ svg #Glutes path {
+    opacity: .75;
+  } 
+
+  .muscle-groups .quads:checked ~ svg #Quads path {
+    opacity: .8;
+    fill: #00BCD4 !important;
+  }
+
+  .muscle-groups [for="quads"]:hover ~ svg #Quads path {
+    opacity: .75;
+  } 
+  
+  html {
+    background: #333;
+    background: linear-gradient(25deg, #111, #555);
+  }
+  
+  body {
+    font-family: Roboto;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 2rem 0;
+  }
+  
+  main .info {
+    font-size: .8rem;
+    display: block;
+    width: 250px;
+    padding-top: 200px;
+    color: #eee;
+    padding-left: 2rem;
+    opacity: .5;
+  }
+  
+  main .info:hover {
+    opacity: 1;
+  }
+  
+  main .info a {
+    color: #eee;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+      
+}
+
+   .buttons a {
+    color: black;
+    text-decoration: none;
+}
+
+.back {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #FB63A3;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(10px 10px 20px rgba(31, 31, 31, 0.25)) drop-shadow(-10px -10px 20px rgba(255, 255, 255, 0.25));
+}
+  
