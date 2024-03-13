@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+/* sign up */
+
+.signup-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #DFDFDF;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    width: 40%;
+
+}
+  
+.signup-form:hover {
+    transform: scale(1.05);
+    border: 1px solid #DFDFDF;
+}
+  
+#signup-heading {
+    text-align: center;
+    margin: 1em;
+    color:black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+  
+.signup-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #DFDFDF;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+  
+.signup-input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: black;
+}
+  
+.signup-input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #1a1a1a;
+}
+  
+.signup-form .signup-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+    flex-wrap: wrap;
+}
+  
+.signup-button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #FB63A3;
+    color: black;
+    font-size: 15px;
+}
+  
+.signup-button1:hover {
+    background-color: #ff3e8e;
+    color: black;
+}
+  
+.signup-button2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #FB63A3;
+    color: black;
+    margin-top: 5px;
+
+}
+  
+.signup-button2:hover {
+    background-color:#f790ba;
+    color: black;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.home-options {
+    width: 341px;
+    height: 98px;
+    border-radius: 10px;
+    background: #DFDFDF;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.progress {
+    border-radius: 10px;
+    background: #FB63A3;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(255, 255, 255, 0.25);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;    
+}
+
+a {
+    color: black;
+}
+
+.back {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #FB63A3;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(10px 10px 20px rgba(31, 31, 31, 0.25)) drop-shadow(-10px -10px 20px rgba(255, 255, 255, 0.25));
+}
+
+.add {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #FB63A3;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(10px 10px 20px rgba(31, 31, 31, 0.25)) drop-shadow(-10px -10px 20px rgba(255, 255, 255, 0.25));
+}
+
+.add:hover {
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.heading i:hover {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+}
+
+th,td  {
+    border: 1px solid; 
+    text-align: left;
+    padding: 5px;
+}
+
+td {
+    font-size: 13px;
+}
+
+.wreps {
+    font-size: 15px;
+}
+
+.workouts-main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.workouts-main h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-gap: 10px;
+}
+
+.img-container {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25), -10px -10px 20px 0px rgba(255, 255, 255, 0.886);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-container img{
+    width: 300px;
+    height: 250px;
+}
+
+.img-container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#watch {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#watch:hover {
+    color:#FB63A3;
+}
+
+.buttons-biceps {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;  
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .workouts-main h1 {
+        font-size: 50px;
+    }
+
+    .img-container img{
+        width: 200px;
+        height: 250px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 750px) {
+    table {
+        font-size: 10px;
+    }
+
+    th,td  {
+        padding: 3px;
+    }
+
+    td {
+        font-size: 10px;
+    }
+    
+    .wreps {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .home-options {
+        width: 250px;
+        height: 98px;
+        font-size: 25px;
+    }
+
+    table {
+        font-size: 8px;
+    }
+
+    th,td  {
+        padding: 2px;
+    }
+
+    td {
+        font-size: 9px;
+    }
+    
+    .wreps {
+        font-size: 9px;
+    }
+
+    .buttons {
+        width: 250px;    
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .home-options {
+        width: 150px;
+        height: 98px;
+        font-size: 15px;
+    }
+
+    table {
+        font-size: 7px;
+    }
+
+    th,td  {
+        padding: 1px;
+    }
+
+    td {
+        font-size: 8px;
+    }
+    
+    .wreps {
+        font-size: 8px;
+    }
+
+    .heading {
+        font-size: 13px;
+    }
+
+    
+}
+
